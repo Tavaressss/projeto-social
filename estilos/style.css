@@ -28,10 +28,17 @@ section#telefone{
     position: absolute; /*Segunda parte do alinhamento*/
     top: 50%;
     left: 50%;  /*--------------*/
-    
     transform: translate(-50%, -50%); /*Terceira parte do alinhamento, corrigindo o target da caixa*/
 
     height: 627px;  /*Tamanho do cell*/
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
